@@ -1,0 +1,22 @@
+{
+  "name": "id-testing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-ap-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "babel-plugin-component-identification": "^1.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-gsandf-react": "^1.0.2",
+    "react-app-rewired": "^1.5.2"
+  }
+}

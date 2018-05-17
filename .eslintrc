@@ -1,0 +1,6 @@
+{
+  "extends": "gsandf-react",
+  "rules": {
+    "react/prop-types": "off"
+  }
+}
